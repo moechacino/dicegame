@@ -1,29 +1,27 @@
 <!DOCTYPE html>
 <head>
     <meta  charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, 
-user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="layout.css">
     <script src="logic.js"></script>
 </head>
-<title>Galery Foto</title>
+<title>Ngocok Dadu</title>
 <body>
     <div class="container">
-    <table cellpadding="10" border="4">
-        <th colspan="2">Galery Foto</th>
-        <tr>
-            <td><img id="gambar" src="1.png" alt=""></td>
-            <td id="caption">dadu angka 1 dengan warna hijau dan titik hitam</td>
-        </tr>
-    </table>
+        <h2>Main Kocok Dadu</h2>
+        <div class="dice">
+            <p class="p1">Player 1</p>
+            <img class="leftdice" src="dice6.png" alt="">
+        </div>
+        <div class="dice">
+            <p class="p2">Player 2</p>
+            <img class="rightdice" src="dice6g.png" alt="">
+        </div>
     </div>
-    <div class="change">
-        <div class="sebelum change"><button type="button" onclick="sebelum()" id="">Sebelum</button></div>    
-        <button type="button" onclick="ganti(1)" id="">1</button>
-        <button type="button" onclick="ganti(2)" id="">2</button>
-        <button type="button" onclick="ganti(3)" id="">3</button>
-        <button type="button" onclick="ganti(4)" id="">4</button>
-        <button type="button" onclick="ganti(5)" id="">5</button>
-        <button class="sesudah" type="button" onclick="sesudah()" id="">Sesudah</button>
+    <div class="bottomcontainer">
+        <button type="button" class="btn" onClick="kocokDadu()">Kocok Dadu Sekarang</button>
+    </div>
+    <div class="bottomcontainer">
+        <button type="submit" class="btn" onClick="editNama()">Ganti Nama Pemain</button>
     </div>
 </body>
