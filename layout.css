@@ -1,34 +1,47 @@
 body{
-    background-color: darkcyan;
-    height: 200px;
+    background-color: bisque;
+    margin: 0;
 }
 .container {
-    padding-top: 5%;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
 }
-table{
-    color: whitesmoke;
-    background-color: grey;
+h2 {
+    margin: auto;
     font-family: cursive;
+    font-size: 48px;
+    text-align: center;
+}
+.dice  {
+    font-size: 30px;
+    text-align: center;
+    display: inline-block;
+}
+img {
+    width: 80%;
+}
+.bottomcontainer {
+    padding-top: 20px;
+}
+.btn {
+    font-family: cursive;
+    background-color: burlywood;
+    font-size: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 16px 25px 16px 25px;
+    border-radius: 20px;
+    display: block;
     margin: auto;
 }
-th{
-    font-size: larger;
+.btn:hover {
+    background-color: white;
+    color: burlywood;
 }
-td {
-    font-size: medium;
-}
-.change {
-    margin: 0;
-    position: absolute;
-    left: 50%;
-    -ms-transform: translate(-50%);
-    transform: translate(-50%);
-    padding-top: 40px;
-}
-button {
-    display: inline-block;
-    background-color: aqua;
-    color: black;
-    padding: 5px 20px 5px;
-    border-radius: 10px;
+.kosong {
+    color: burlywood;
+    padding-top: 500px;
+    text-align: center;
 }
